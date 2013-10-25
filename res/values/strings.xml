@@ -955,7 +955,7 @@
     <string name="storage_warning_title">Your phone\'s storage is full</string>
     <string name="storage_warning_content">You won\'t receive new SMS/MMS messages</string>
 
- <!-- Multi recipients -->
+    <!-- Multi recipients -->
     <string name="select_recipients">Select recipients</string>
     <string name="groups_header">Groups</string>
     <string name="no_recipients">No contacts found</string>
@@ -965,4 +965,14 @@ mbers only\' filter</string>
     <string name="menu_mobile">Mobile numbers only</string>
     <string name="menu_groups">Show groups</string>
     <string name="fastscroll_index_groups">GR</string> <!-- CHAR LIMIT=3 -->
+
+    <!-- Delay delivery -->
+    <string name="pref_title_send_delay">Delivery delay</string>
+    <string name="send_delay_immediate">Send immediately</string>
+    <string name="send_delay_3seconds">3 seconds</string>
+    <string name="send_delay_5seconds">5 seconds</string>
+    <string name="send_delay_10seconds">10 seconds</string>
+    <string name="send_delay_20seconds">20 seconds</string>
+    <string name="send_delay_30seconds">30 seconds</string>
+    <string name="sent_countdown">Message delivery countdown</string>
 </resources>
