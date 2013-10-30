@@ -85,6 +85,7 @@ public class MessagingPreferenceActivity extends PreferenceActivity
     public static final String DISPLAY_QR_MARK_READ     = "pref_key_display_quickreply_mark_read";
 
     public static final String RESUME_SLEEP_FROM_QR     = "pref_key_resume_sleep_from_qr";
+    public static final String ENABLE_EMOTICONS = "pref_key_enable_emoticons";
     public static final String ENABLE_EMOJIS            = "pref_key_enable_emojis";
     public static final String SOFTBANK_EMOJIS          = "pref_key_enable_softbank_encoding";
     public static final String ENABLE_QUICK_EMOJIS      = "pref_key_emojis_quick";
@@ -112,6 +113,7 @@ public class MessagingPreferenceActivity extends PreferenceActivity
     private CheckBoxPreference mVibratePref;
     private CheckBoxPreference mBreathPref;
     private CheckBoxPreference mEnableNotificationsPref;
+    private CheckBoxPreference mEnableEmoticonsPref;
     private CheckBoxPreference mMmsAutoRetrievialPref;
     private CheckBoxPreference mMmsRetrievalDuringRoamingPref;
     private RingtonePreference mRingtonePref;
