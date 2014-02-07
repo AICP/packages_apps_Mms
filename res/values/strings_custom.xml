@@ -178,4 +178,9 @@
     <string name="alert_dialog_yes">Yes</string>
     <string name="alert_dialog_no">No</string>
 
+    <!-- New line -->
+    <!-- Preferences -->
+    <string name="pref_title_mms_enter_new_line">Force newline</string>
+    <string name="pref_summary_mms_enter_new_line">Pressing the enter key will add a newline</string>
+
 </resources>
