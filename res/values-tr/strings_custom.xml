@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/**
+ * Copyright (c) 2013, The Android Open Kang Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--
+         Menu shown in the context menu when long pressing on a message when the message contains
+         one or more phone numbers and/or email addresses and the number or email is new to
+         contacts. [CHAR LIMIT=50]
+    -->
+    <!-- Context menu item on an failed message for resending -->
+    <string name="menu_resend">Tekrar gönder</string>
+
+    <!-- Message options - Add SMS to calendar -->
+    <string name="menu_add_to_calendar">Takvime ekle</string>
+
+    <!-- QM - Dialog box buttons -->
+    <string name="button_close">Kapat</string>
+    <string name="button_view">Göster</string>
+    <string name="button_templates">Şablonlar</string>
+
+    <!-- QM - Hint text in message body field when keyboard is exposed -->
+    <string name="type_to_reply_text_enter_to_send">Cevaplamak için yazın</string>
+
+    <!-- QM - Toast -->
+    <string name="toast_sending_message">Mesaj gönderiliyor</string>
+
+    <!-- QM - Quick reply -->
+    <string name="qm_quick_reply">Cevapla</string>
+    <string name="qm_mark_read">Oku</string>
+
+    <!-- QM - Counter separator -->
+    <string name="message_counter_separator">\/</string>
+
+    <!-- NOTIFICATIONS -->
+    <!-- Privacy mode -->
+    <string name="pref_title_notification_privacy_mode_enabled">Gizlilik modu</string>
+    <string name="pref_summary_notification_privacy_mode_enabled">Bildirim çubuğunda göndereni ve içeriği gizle, \'Hızlı Cevap\' özelliğini kapat</string>
+    <string name="notification_single_title_privacy_mode">Yeni mesaj</string>
+    <string name="notification_single_text_privacy_mode">1 okunmamış mesaj</string>
+    <string name="notification_multiple_title_privacy_mode">Yeni mesajlar</string>
+    <string name="notification_multiple_text_privacy_mode"><xliff:g id="number" example="3">%1$s</xliff:g> okunmamış mesaj var</string>
+    <string name="notification_ticker_privacy_mode">Yeni mesaj alındı</string>
+
+    <!-- QUICKMESSAGE -->
+    <string name="pref_quickmessage">Hızlı Cevap</string>
+
+    <!-- Use dark theme -->
+    <string name="pref_dark_theme_title">Koyu temayı kullan</string>
+    <string name="pref_dark_theme_summary">Eğer seçili değilse, varsayılan \'aydınlık\' tema kullanılacaktır</string>
+
+    <!-- Show pop-up -->
+    <string name="pref_quickmessage_title">ÇabukMesaj ekranını göster</string>
+    <string name="pref_quickmessage_summary">Gelen kısa mesajları ÇabukMesaj açılır penceresinde göster.</string>
+
+    <!-- Wake and unlock -->
+    <string name="pref_wake_unlock_title">Uyandır ve kilidi aç</string>
+    <string name="pref_wake_unlock_summary">Mesaj geldiğinde telefonu uyandır ve kilidini aç (sadece güvenliksiz ekranlarda)</string>
+
+    <!-- Close all messages -->
+    <string name="pref_close_all_title">Hepsini kapat</string>
+    <string name="pref_close_all_summary">Kapat butonu tüm mesajları kapatır</string>
+
+    <!-- SMS TEMPLATES -->
+    <string name="prefs_templates_settings">SMS şablonları</string>
+
+    <!-- Manage SMS templates -->
+    <string name="pref_title_templates_manage">Şablonlar</string>
+    <string name="pref_summary_templates_manage">SMS şablonlarınızı yönetin</string>
+    <string name="template_explanation">Şablon mesajını ekleyin veya değiştirin. İsteğe bağlı olarak hareket çizerek şablonu ilişkilendirebilirsiniz</string>
+    <string name="template_insert_hint">Metni buraya girin</string>
+    <string name="template_empty_text">Metin alanı boş bırakılamaz</string>
+    <string name="template_save">Kaydet</string>
+    <string name="template_ctx_menu_title">Eylemler</string>
+    <string name="template_edit">Düzenle</string>
+    <string name="template_delete">Sil</string>
+    <string name="template_list_title">Şablonlar</string>
+    <string name="template_new_title">Yeni şablon</string>
+    <string name="template_insert">Şablon ekle</string>
+    <string name="template_gesture_draw">Hareketi aşağıdaki boşluğa çizin</string>
+    <string name="template_not_present_error">Tanımlı şablon bulunamadı</string>
+    <string name="template_not_present_error_title">Hata</string>
+    <string name="template_select">Şablon seçiniz</string>
+    <string name="template_confirm_dialog_title">Silinsin mi?</string>
+    <string name="gestures_already_present">Benzer bir hareket başka bir şablonla ilişkilendirilmiş</string>
+    <string name="select_template">Şablonları seçiniz</string>
+
+    <!-- Show gesture trace -->
+    <string name="pref_title_templates_show_gesture">Hareket</string>
+    <string name="pref_summary_templates_show_gesture">Hareket izini göster</string>
+
+    <!-- Gesture sensitivity -->
+    <string name="pref_title_template_gestures_sensitivity">Hareket hassasiyeti</string>
+
+    <!-- EXTRA SETTINGS -->
+    <string name="pref_extra_settings">Ek ayarlar</string>
+
+    <!-- Strip unicode -->
+    <string name="pref_title_unicode_stripping">Evrensel kodları kaldır</string>
+    <string name="pref_unicode_stripping_leave_intact">Karakterleri değiştirme</string>
+    <string name="pref_unicode_stripping_non_encodable">Kodlanamayan karakterleri kaldır</string>
+    <string name="pref_unicode_stripping_all">Tüm evrensel karakter kodlarını kaldır</string>
+
+    <!-- Full timestamps -->
+    <string name="pref_title_mms_full_timestamp">Tam zaman damgaları</string>
+    <string name="pref_summary_mms_full_timestamp">Zaman damgalarında tarihi ve saati göster</string>
+
+    <!-- Original timestamps -->
+    <string name="pref_title_mms_use_sent_timestamp">Orijinal zaman damgaları</string>
+    <string name="pref_summary_mms_use_sent_timestamp">Zaman damgalarında alınma tarihi yerine gönderilme tarihini göster</string>
+
+    <!-- Soft keyboard type -->
+    <string name="pref_title_input_type">Mesaj klavye tipi</string>
+    <string name="pref_keyboard_emoji">Emoji tuşunu göster</string>
+    <string name="pref_keyboard_new_line">Yeni satır tuşunu göster</string>
+    <string name="pref_keyboard_unknown">Bilinmiyor, tekrar seçiniz</string>
+
+    <!-- Settings item for boolean option for SMS Split Counter -->
+    <string name="pref_title_sms_split_counter">Bölme sayacı</string>
+    <!-- Settings item description for boolean SMS Split 160 characters setting -->
+    <string name="pref_summary_sms_split_counter">Mesajlara sayaç ekler. (1/2) gibi</string>
+
+    <!-- Multi recipients -->
+    <string name="select_recipients">Alıcıları seçin</string>
+    <string name="groups_header">Gruplar</string>
+    <string name="no_recipients">Kişi bulunamadı</string>
+    <string name="no_recipients_mobile_only">Eşleşen kişi bulunamadı. \'Sadece cep telefonu numarası\' filtresini kaldırarak deneyiniz</string>
+    <string name="menu_done">Bitti</string>
+    <string name="menu_mobile">Sadece cep telefonu numarası</string>
+    <string name="menu_groups">Grupları göster</string>
+    <string name="fastscroll_index_groups">GR</string> <!-- CHAR LIMIT=3 -->
+
+    <!-- Delay delivery -->
+    <string name="pref_title_send_delay">İletim gecikmesi</string>
+    <string name="send_delay_immediate">Hemen yolla</string>
+    <string name="send_delay_3seconds">3 saniye</string>
+    <string name="send_delay_5seconds">5 saniye</string>
+    <string name="send_delay_10seconds">10 saniye</string>
+    <string name="send_delay_20seconds">20 saniye</string>
+    <string name="send_delay_30seconds">30 saniye</string>
+    <string name="sent_countdown">Mesaj iletim sayacı</string>
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">Kara liste</string>
+    <string name="blacklist_summary_disabled">Kapalı</string>
+    <string name="blacklist_summary">Kara listedeki numaralardan gelen mesajlar engellenecek</string>
+
+    <!-- Blacklist management -->
+    <string name="add_to_blacklist">Kara listeye ekle</string>
+    <string name="add_to_blacklist_message">%s\'ten gelen mesajlar engellenecek</string>
+
+    <!-- Generic blacklist handling -->
+    <string name="alert_dialog_yes">Evet</string>
+    <string name="alert_dialog_no">Hayır</string>
+
+    <!-- New line -->
+    <!-- Preferences -->
+    <string name="pref_title_mms_enter_new_line">Alt satıra geç</string>
+    <string name="pref_summary_mms_enter_new_line">Giriş butonuna basıldığında alt satıra geç</string>
+
+</resources>
