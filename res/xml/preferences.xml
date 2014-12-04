@@ -199,6 +199,12 @@
   </PreferenceCategory>
   <PreferenceCategory android:title="@string/pref_notification_settings_title"
                       android:key="pref_key_notification_settings">
+    <CheckBoxPreference android:key="pref_key_enable_heads_up_mode"
+                        android:layout="?android:attr/preferenceLayoutChild"
+                        android:dependency="pref_key_enable_notifications"
+                        android:defaultValue="true"
+                        android:title="@string/pref_title_notification_heads_up_mode_enabled"
+                        android:summary="@string/pref_summary_notification_heads_up_mode_enabled" />
     <CheckBoxPreference android:key="pref_key_enable_notifications"
                         android:title="@string/pref_title_notification_enabled"
                         android:defaultValue="true" />
