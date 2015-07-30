@@ -2531,7 +2531,6 @@ public class ComposeMessageActivity extends Activity
         mIsRunning = true;
         updateThreadIdIfRunning();
         mConversation.markAsRead(true);
-        setTextFontsize();
     }
 
     @Override
@@ -6242,11 +6241,4 @@ public class ComposeMessageActivity extends Activity
         }
     };
 
-    private void setTextFontsize() {
-        int size =  MessageUtils.getFontSize();
-        if (mTextEditor != null) {
-            mTextEditor.setTextSize(size);
-        }
-        mMsgListAdapter.notifyDataSetChanged();
-    }
 }
